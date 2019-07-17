@@ -1,7 +1,55 @@
 @charset "UTF-8";
 
-h1{
-     background-color: rgb(255, 0, 0);
+li{
+  list-style: none;
+  text-align: center;
 }
 
-.hoge
+h1{
+  background-color: #e2970c;
+  font-size: 30px;
+  border-left: #e2970c solid 5px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+h3{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+html, body, #wrapper{
+  min-height: 100%;
+}
+
+ul, ol{
+  margin-bottom: 10px;
+}
+
+#main_nav{
+  text-align: center;
+  padding: 20px;
+}
+
+#main_nav li{
+  display: inline-block;
+}
+
+#main_nav li a,
+#main_nav li span{
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0 20px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+#main_nav li a:hover,
+#main_nav li span{
+  color: #e2970c
+}
